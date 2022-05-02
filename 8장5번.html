@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+           padding: 0;}
+        
+        li{list-style-type: none;}
+        
+        @media screen and (orientation : portrait) {
+            div.left{
+                display: none;
+            }
+        }
+        @media screen and (orientation : landscape){
+            div.left{
+                width: 30%;
+                float: left;
+            }
+            div.right{
+                width: 70%;
+                float: right;
+            }
+        }
+        div.content{padding: 16px;}
+        li{
+            padding-top: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #c7c7c7;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div class="content">
+            <h1>List</h1>
+            <ul>
+                <li>ldkasl dksladka dsjdasklkd asldaks</li>
+                <li>sdkaldoisadsadio djsaidsajo sad</li>
+                <li>djsaodaso skdjaos sk jdaso ks</li>
+                <li>djsa kkksowkd skdasi wksi wkdjais l</li>
+                <li>ksasdoisdjaisak kajdasjo ksajdl jk</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="content">
+            <h1>Lorem</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime iste dolor illo asperiores exercitationem nam incidunt et. Eum recusandae omnis hic cum alias fugiat totam, autem nesciunt velit et itaque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptates provident illum non nulla eligendi totam suscipit tempore aperiam. Enim, distinctio? Rerum ex repellendus libero odio blanditiis id velit dolorem.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam repudiandae quo necessitatibus odio harum fugiat sit excepturi, laudantium hic beatae ullam in illum error exercitationem. Fugit quibusdam culpa ipsa?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus explicabo officia voluptatem at culpa nam soluta exercitationem similique a iste earum architecto, vero rem repellat asperiores blanditiis quasi cumque distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore atque illum explicabo porro iure ipsam delectus tenetur voluptate quis? Voluptatibus consequatur dicta et quas iste eum sed nemo, consequuntur architecto?</p>
+        </div>
+
+    </div>
+</body>
+</html>
